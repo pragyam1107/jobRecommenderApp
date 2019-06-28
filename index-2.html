@@ -1,0 +1,50 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Unknown </title></head><body>
+<h2 id="assignment-scaffolding">Assignment Scaffolding</h2>
+<p><strong><em>Code Navigation</em></strong></p>
+<p>Specify the urls in <code>urls.py</code> file in the api folder as list of tuples with following format:</p>
+<pre><code>(endpoint, view_func, methods, description)
+</code></pre>
+<p>example:</p>
+<pre><code>("/", views.index, ["GET"], "index page")
+</code></pre>
+<p><strong><em>Installation</em></strong></p>
+<p>Running the scaffolding app is very easy. Create a virtualenv with all the packages installed in your virtualenv from requirements.txt</p>
+<p><strong><em>Your Assignment</em></strong></p>
+<p>You have to achieve two major tasks:</p>
+<ul>
+<li>
+<p>Make a classifier which takes in a job description (block of text) and gives the department name for it. (use any model/algorithm)</p>
+</li>
+<li>
+<p>Calculate and report the accuracy on a test set (data not used to train the model)</p>
+</li>
+<li>
+<p>Create an API (JSON) in flask in this structure that takes jd text as input, runs the model and returns the predicted department.</p>
+</li>
+</ul>
+<p><strong>Data Structuring</strong>
+*   All the data required can be found in the data folder in the root of the project</p>
+<ul>
+<li>
+<p>There are two sources for loading your training/test data</p>
+</li>
+<li>
+<p>For Job Description:
+     docs folder contains around 1000 json files, each of which is a single job posting. You have to use the value of description field inside the jd_information field.</p>
+</li>
+<li>
+<p>For Job Department:
+     document_departments.csv file contains the mapping of document id to department name where document id is the name of the corresponding file in docs folder.</p>
+</li>
+</ul>
+<p><strong>Coding Guidelines</strong>
+    Write clean code with precise comments wherever necessary
+    Update the requirements.txt with all the packages used in your code base</p>
+<pre><code>Adhere to PEP8 formatting
+Use python 3
+</code></pre>
+<p>Go through the structure of the project and figure out how you would proceed.</p>
+<p><strong>Separation of concerns</strong>
+Make sure that all the api only logic should go in api layer (i.e. views.py) and all the machine learning logic should go in the service layer (i.e. classification_service.py).</p>
+<p>Refer docstrings in the above mentioned files.</p>
+</body></html>
