@@ -1,7 +1,7 @@
 **GBM Flask Application for job recomendation**
 
 * The main purpose is to traing the ml model to recommend job department given job description. 
-* It uses a simple flask app.
+* It uses a simple flask api.
 * The project uses a fairly small data set for training here.
 * It uses GBM for machine learning of input vectors.
 * Install wiki2vec 100 dimensional vectorizer model
