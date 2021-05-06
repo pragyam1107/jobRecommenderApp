@@ -41,7 +41,7 @@ entrypoints==0.3
 ephem==3.7.6.0
 fbprophet==0.5
 Flask==1.0.2
-Flask-Cors==3.0.7
+Flask-Cors==3.0.9
 Flask-Mail==0.9.1
 ftfy==4.4.3
 gensim==3.7.3
