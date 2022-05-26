@@ -186,7 +186,7 @@ tzlocal==1.5.1
 ubuntu-drivers-common==0.0.0
 ufal.udpipe==1.2.0.2
 ufw==0.35
-ujson==1.35
+ujson==5.2.0
 unattended-upgrades==0.1
 unicode==2.7
 urllib3==1.24.1
