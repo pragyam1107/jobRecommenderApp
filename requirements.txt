@@ -90,7 +90,7 @@ marisa-trie==0.7.5
 MarkupSafe==1.1.0
 matplotlib==3.0.3
 mccabe==0.6.1
-mistune==0.8.4
+mistune==2.0.3
 mongoengine==0.15.0
 msgpack==0.5.6
 msgpack-numpy==0.4.3.2
