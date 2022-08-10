@@ -97,7 +97,7 @@ msgpack-numpy==0.4.3.2
 murmurhash==1.0.2
 mwparserfromhell==0.5.2
 mxnet==1.4.0.post0
-nbconvert==5.5.0
+nbconvert==6.3.0
 nbformat==4.4.0
 netifaces==0.10.4
 networkx==2.3
